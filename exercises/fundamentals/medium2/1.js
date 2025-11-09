@@ -1,0 +1,2 @@
+// The limitation in both is that if the optional arguments after `price` are supplied, they are assigned in the order that parameters are defined. What this means is that if a user of the function wanted to supply `price` and `discount`, they would also have to provide a value for `quantity`; otherwise, their second argument (intended to be `discount`) would instead be assigned to parameter `quantity`. 
+
